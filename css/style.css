@@ -1,0 +1,132 @@
+.black-background{
+    background-color: black;
+    color:white;
+}
+
+.white-background{
+    background-color: white;
+    color:black;
+}
+
+.red-color {
+    color:red;
+    font-size: xx-large;
+    font-family: monospace;
+
+}
+
+.orange-color {
+    color:orange;
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.orange-red-color {
+    background: linear-gradient(to right, red ,orange, red ,orange, red ,orange);
+    background-clip:text;    
+    -webkit-background-clip: text; 
+    color:transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.sun-color{
+    background: linear-gradient(to bottom, red ,orange,yellow);
+background-clip:text;
+-webkit-background-clip: text;
+color:transparent;
+-webkit-text-fill-color: transparent;
+}
+
+.green-color{
+    color:greenyellow;
+    
+    font-weight:bolder
+}
+
+.rainbow-color {
+
+    background: linear-gradient(to right, red ,orange,yellow,green,cyan,blue, purple, red ,orange,yellow,green,cyan,blue, purple, red ,orange,yellow,green,cyan,blue, purple, red ,orange,yellow,green,cyan,blue, purple, red ,orange,yellow,green,cyan,blue, purple, red ,orange,yellow,green,cyan,blue, purple, red ,orange,yellow,green,cyan,blue, purple);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color:transparent;
+    -webkit-text-fill-color: transparent;
+    
+    }
+
+.rainbow-color2 {
+    background: radial-gradient(circle at 30%, red ,orange,yellow,green,blue,indigo, violet, red ,orange,yellow,green,blue,indigo, violet);
+    background-clip:text;    
+    -webkit-background-clip: text; 
+    color:transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.blue-red-color {
+   
+    background: linear-gradient(to bottom
+    ,rgb(255, 0, 0)
+    ,rgb(204, 0, 0)
+    ,rgb(153, 0, 0)
+    
+    ,rgb(0, 0, 153)
+    ,rgb(0, 0, 204)
+    ,rgb(0, 0, 255)
+    );
+    background-clip:text;    
+    -webkit-background-clip: text; 
+    color:transparent;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.button-type:link{
+    color:#ff0000;
+    padding:10 px 25px;
+    background:transparent;
+    border:1px solid #ff0000;
+    border-radius:20px;
+    outline:none;
+    cursor: pointer;
+
+    
+}
+
+.button-type:visited{
+    color:#00ff00;
+    padding:10 px 25px;
+    background:transparent;
+    border:1px solid #00ff00;
+    border-radius:20px;
+    outline:none;
+    cursor: pointer;
+
+
+}
+
+.button-type:hover{
+    color:#fbfcfd;
+    padding:10 px 25px;
+    background:transparent;
+    border:5px solid #fff;
+    border-radius:20px;
+    outline:none;
+    cursor: pointer;
+
+
+}
+
+.button-type:active{
+    color:#0000ff;
+    padding:10 px 25px;
+    background:transparent;
+    border:1px solid #0000ff;
+    border-radius:20px;
+    outline:none;
+    cursor: pointer;
+
+
+}
+
+
+

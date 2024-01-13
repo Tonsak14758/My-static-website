@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+table, th, td {
+  border: 2px solid blue;
+  border-collapse: collapse;
+}
+
+.container {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  scroll-snap-align: start;
+}
+
+.dog-pictureSize {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+
+input.checkbox-size {
+  width: 15px;
+  height: 15px;
+}
+
+.dogName {
+  color: rgb(115, 255, 0);
+}
+
+.background {
+  background-image: url(../images/Ball.gif);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.background1 {
+  background-image: url(../images/Space.gif);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.button-type:link {
+  color: #ff0000;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #ff0000;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-type:visited {
+  color: #00ff00;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #00ff00;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-type:hover {
+  color: #fbfcfd;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-type:active {
+  color: #0000ff;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #0000ff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}

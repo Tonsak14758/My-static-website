@@ -1,0 +1,538 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+table, th, td {
+  border: 2px solid yellow;
+  border-collapse: collapse;
+}
+
+.container {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  scroll-snap-align: start;
+}
+
+.background {
+  background-image: url(../images/Pixel_landscape.webp);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.matrix {
+  background-image: url(../images/blockstream-matrix.gif);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.background2 {
+  background-image: url(../images/Moving_particles.gif);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.coral {
+  background-image: url(../images/Coral.gif);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.deep-sea {
+  background-image: url(../images/DeepSeaImage.gif);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.depth-sea {
+  background-image: url(../images/Depth-Sea.html);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.link {
+  width: 85%;
+  height: 15%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.positioned {
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 44%;
+  top: 27%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type:link {
+  color: #ff0000;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #ff0000;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 54.5%;
+  top: 50%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type:visited {
+  color: #00ff00;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #00ff00;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 4.5%;
+  top: 50%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type:hover {
+  color: #fbfcfd;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 54.3%;
+  top: 49.8%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type:active {
+  color: #0000ff;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #0000ff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 54.5%;
+  top: 50%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type2:link {
+  color: #ff0000;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #ff0000;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 52%;
+  top: 55%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type2:visited {
+  color: #00ff00;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #00ff00;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 52%;
+  top: 55%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type2:hover {
+  color: #fbfcfd;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 51.8%;
+  top: 54.8%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type2:active {
+  color: #0000ff;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #0000ff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 52%;
+  top: 55%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type3:link {
+  color: #ff0000;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #ff0000;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 53.9%;
+  top: 60%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type3:visited {
+  color: #00ff00;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #00ff00;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 53.9%;
+  top: 60%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type3:hover {
+  color: #fbfcfd;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 53.7%;
+  top: 59.8%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type3:active {
+  color: #0000ff;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #0000ff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 53.9%;
+  top: 60%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type4:link {
+  color: #ff0000;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #ff0000;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 57.8%;
+  top: 65%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type4:visited {
+  color: #00ff00;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #00ff00;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 57.8%;
+  top: 65%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type4:hover {
+  color: #fbfcfd;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 57.5%;
+  top: 64.8%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type4:active {
+  color: #0000ff;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #0000ff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 57.8%;
+  top: 65%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type5:link {
+  color: #ff0000;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #ff0000;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 52.6%;
+  top: 70%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type5:visited {
+  color: #00ff00;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #00ff00;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 52.6%;
+  top: 70%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type5:hover {
+  color: #fbfcfd;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 52.4%;
+  top: 69.8%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-type5:active {
+  color: #0000ff;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #0000ff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 52.6%;
+  top: 70%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+}
+
+.button-link:link {
+  color: #ff0000;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #ff0000;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-link:visited {
+  color: #00ff00;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #00ff00;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-link:hover {
+  color: #fbfcfd;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-link:active {
+  color: #0000ff;
+  padding: 10 px 25px;
+  background: transparent;
+  border: 1px solid #0000ff;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:link {
+  color: #ff0000;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:visited {
+  color: #00ff00;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #fbfcfd;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:active {
+  color: #0000ff;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.Homepage {
+  font-size: 50px;
+  position: absolute;
+  margin: 0%;
+  padding: 0%;
+  left: 40%;
+  top: 27%;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+  background: -webkit-gradient(linear, left top, left bottom, from(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(blue), color-stop(purple), color-stop(cyan), color-stop(red), color-stop(orange), color-stop(yellow), color-stop(green), color-stop(blue), color-stop(purple), to(cyan));
+  background: linear-gradient(to bottom, red, orange, yellow, green, blue, purple, cyan, red, orange, yellow, green, blue, purple, cyan);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #ffffff;
+}
